@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow: auto;
+        }
+        .tag {
+            color: #d14;
+        }
+        .attribute {
+            color: #069;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Cheat Sheet</h1>
+
+    <h2>Basic Structure</h2>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Content goes here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h2>Common Tags</h2>
+    <ul>
+        <li><code>&lt;a href="url"&gt;link text&lt;/a&gt;</code> - Defines a hyperlink</li>
+        <li><code>&lt;img src="image.jpg" alt="description"&gt;</code> - Embeds an image</li>
+        <li><code>&lt;p&gt;Paragraph text&lt;/p&gt;</code> - Defines a paragraph</li>
+        <li><code>&lt;br&gt;</code> - Inserts a line break</li>
+        <li><code>&lt;hr&gt;</code> - Defines a thematic break (horizontal line)</li>
+        <li><code>&lt;strong&gt;strong text&lt;/strong&gt;</code> - Defines important text</li>
+        <li><code>&lt;em&gt;emphasized text&lt;/em&gt;</code> - Defines emphasized text</li>
+    </ul>
+
+    <h2>Headings</h2>
+    <pre><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+
+    <h2>Lists</h2>
+    <h3>Ordered List</h3>
+    <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+    <h3>Unordered List</h3>
+    <pre><code>&lt;ul&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+    <h2>Tables</h2>
+    <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+    <h2>Forms</h2>
+    <pre><code>&lt;form action="submit.php" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+
+    <h2>Media</h2>
+    <ul>
+        <li><code>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</code> - Embeds an audio file with controls</li>
+        <li><code>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code> - Embeds a video file with controls</li>
+    </ul>
+
+    <h2>Semantic HTML</h2>
+    <ul>
+        <li><code>&lt;header&gt;...&lt;/header&gt;</code> - Defines a header for a document or section</li>
+        <li><code>&lt;nav&gt;...&lt;/nav&gt;</code> - Defines a set of navigation links</li>
+        <li><code>&lt;section&gt;...&lt;/section&gt;</code> - Defines a section in a document</li>
+        <li><code>&lt;article&gt;...&lt;/article&gt;</code> - Defines an independent, self-contained content</li>
+        <li><code>&lt;aside&gt;...&lt;/aside&gt;</code> - Defines content aside from the content it is placed in</li>
+        <li><code>&lt;footer&gt;...&lt;/footer&gt;</code> - Defines a footer for a document or section</li>
+    </ul>
+
+    <h2>Comments</h2>
+    <pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+</body>
+</html>
